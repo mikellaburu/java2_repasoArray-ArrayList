@@ -28,6 +28,7 @@ public class Ejercicio2 {
 		// clon del ArrayList
 
 		ArrayList copia = (ArrayList)numeros.clone();
+		//ArrayList copia = numeros;
 
 		// mostrar contenido del ArrayList
 
@@ -78,6 +79,15 @@ public class Ejercicio2 {
 	    	System.out.print(copia.get(i)+" ");
 
 	    }
+	    
+	    System.out.println("\nArrayList(clon) sin ordenar(FOR-EACH):");
+	    
+	    for (Object item : copia) {
+
+	    	System.out.print(item+" ");
+
+	    }
+	    
 	    System.out.println("\nArrayList(clon) ordenado utilizando metodo 'sort'):");
 
 	    Collections.sort(copia);
