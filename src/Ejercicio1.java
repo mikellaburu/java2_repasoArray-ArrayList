@@ -1,6 +1,6 @@
 public class Ejercicio1 {
 	public static void main(String[] args) {
-		int [] arrayNumeros = {2,5,6,9,1,0};
+		int [] arrayNumeros = {2,5,9,1,0};
 
 		int aux;
  		System.out.println("Array sin ordenar:");
